@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    box-shadow: -1px 22px 30px -14px rgba(230,233,237,.7);
+    padding: .5em;
+}
+
+.steps-content {
+    margin-top: 3em;
+}
+
+.steps-action {
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps-action button.ant-btn-primary, div.ant-steps-item.ant-steps-item-process div.ant-steps-item-icon {
+    background-color: #00a8f4;
+}
